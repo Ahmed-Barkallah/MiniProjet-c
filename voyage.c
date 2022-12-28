@@ -245,7 +245,7 @@ int main(){
     
         while (b){
             printf("Donner le numero de la tache a faire: \n");
-            printf(" 1:Ajouter un voyage. \n 2:Afficher la description d’un voyage. \n 3:Supprimer un voyage. \n 4:Modifier un voyage. \n 5:Rechercher les voyages disponibles selon les dates données.\n ");
+            printf(" 1:Ajouter un voyage. \n 2:Afficher la description d'un voyage. \n 3:Supprimer un voyage. \n 4:Modifier un voyage. \n 5:Rechercher les voyages disponibles selon les dates donnees.\n ");
             scanf("%d",&i);
             if(i<=5&&i>=1){
                 b=false;
